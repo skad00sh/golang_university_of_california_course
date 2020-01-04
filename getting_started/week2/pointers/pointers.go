@@ -15,7 +15,12 @@ func  main()  {
   a := x
   fmt.Println("Memory address of a is: ", &a)
   a_pointer := &a
-  fmt.Println("Data at memory address of a is: ", *a_pointer) 
+  fmt.Println("Data at memory address of a is: ", *a_pointer)
+
+  ptr := new(int)
+  fmt.Println("Value of ptr is: ", ptr)
+  fmt.Println("Memory address of ptr is: ", &ptr)
+  fmt.Println("Data at memory location of ptr is: ", *ptr) 
 }
 
 //Output
