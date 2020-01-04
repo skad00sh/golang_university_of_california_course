@@ -10,12 +10,12 @@ func  main()  {
   fmt.Println("Data at memory address of int is: ", ip)
   ip = &x
   y = *ip
-  fmt.Println("Memory address(pointer) of x is: ", ip)
-  fmt.Println("Data at memory address of x is: ", y)
+  fmt.Println("Memory address(pointer) of x is: ", ip) //memory address of x
+  fmt.Println("Data at memory address of x is: ", y) //data at ip
   a := x
   fmt.Println("Memory address of a is: ", &a)
   a_pointer := &a
-  fmt.Println("Data at memory address of a is: ", *a_pointer)
+  fmt.Println("Data at memory address of a is: ", *a_pointer) 
 }
 
 //Output

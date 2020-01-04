@@ -1,0 +1,7 @@
+Value of x is:  1
+Value of y is : 0
+Data at memory address of int is:  <nil>
+Memory address(pointer) of x is:  0xc0000a0000
+Data at memory address of x is:  1
+Memory address of a is:  0xc0000a0028
+Data at memory address of a is:  1
