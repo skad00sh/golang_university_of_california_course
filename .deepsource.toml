@@ -1,0 +1,3 @@
+version = 1
+
+test_patterns = ["golang_university_of_california_course/getting_started/week1/helloworld/helloworld.go"]
